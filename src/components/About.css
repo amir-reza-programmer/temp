@@ -1,0 +1,32 @@
+.about__image {
+  height: 100%;
+  object-fit: contain;
+}
+
+.about__image-container {
+  height: 50vh;
+  overflow: hidden;
+  background-position: center;
+  margin-top: 0.5rem;
+}
+
+.about__image__desk {
+  width: 20vw;
+  border: 1px solid #3D90B2;
+  margin: 1rem;
+  align-self: center;
+  height: 20vw;
+  border-radius: 1rem;
+}
+
+.projects_imgs_desk{
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about__ul {
+  padding: 0 1rem;
+  list-style-type: square;
+}

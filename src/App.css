@@ -1,0 +1,61 @@
+body{
+  font-family: 'IranSans-Regular', 'sans-serif';
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+for custom style react-toastify
+
+enter image description hereenter image description here enter image description here
+
+css
+
+.Toastify__toast--error {
+    font-size: 1rem;
+    border: 1px solid #EB5757;
+    border-radius: 50px !important;
+    background: #FAE1E2 !important;
+}
+
+.Toastify__toast--error::after {
+  position: absolute;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 700;
+  left:265px;
+  padding-top: 14px !important;
+}
+
+.Toastify__toast--error::before {
+  position:relative; 
+  z-index:100000;
+  left:12px;
+  top:6px;
+}
+
+@media (max-width: 420px) {
+  .Toastify__toast--error::after {
+    right:0px;
+    left:auto;
+  }
+  .Toastify__toast--error {
+    font-size: 0.8rem;
+  }
+
+}

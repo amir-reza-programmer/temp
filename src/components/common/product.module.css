@@ -1,0 +1,44 @@
+.title {
+  font-size: 1.1rem;
+  margin: 0;
+	color: white;
+	align-self: center;
+	margin: 0 auto;
+  padding: 10px;
+  width: 15rem;
+  text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 0.7rem;
+  }
+}
+
+.image_container {
+  height: 10vh;
+  overflow: hidden;
+  background-position: center;
+  display: flex;
+}
+.image_container_desk {
+  height: 20vh;
+  overflow: hidden;
+  background-position: center;
+  display: flex;
+}
+ 
+.image_item {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.title_container {
+  background-color: #3d90b2;
+	min-height: 8vh;
+	display: flex;
+  text-decoration: none;
+}

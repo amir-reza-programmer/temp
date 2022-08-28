@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: deltasystemco-web
+    image: deltasystemco-web
+    build:
+      context: .
+      target: production
+#    ports:
+#      - 127.0.0.1:3000:3000
+#    volumes:
+#      - ./src:/app/src
+    expose:
+      - 80
+    environment:
+      VIRTUAL_HOST: deltasystemco.com
+      VIRTUAL_PORT: 80
+
+networks:
+  default:
+    external:
+      name: proxy

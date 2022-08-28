@@ -1,0 +1,31 @@
+.product__billboard {
+    height: auto;
+    width: 100%;
+    background-image: url(../../pics/ProductBillboard.png);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.desk-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.desk-wrapper__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 40vw;
+}
+
+.desk-wrapper__left {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 40vw;
+
+}

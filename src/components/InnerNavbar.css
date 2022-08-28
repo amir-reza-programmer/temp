@@ -1,0 +1,130 @@
+.content-inner {
+    font-weight: 400;
+}
+
+
+.inner-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3D90B2;
+    padding: 0.7rem 0rem;
+    margin-right: -1.2rem;
+    border-bottom: 1px solid #e0e0e0;
+    align-self: flex-start;
+    
+}
+
+.inner-header-desk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7rem 0rem;
+    margin-right: -1.2rem;
+    align-self: flex-start;
+}
+
+.inner-li {
+    display: inline-block;
+    width: calc(50% - 2rem);
+    padding: 1rem 1rem 1rem 1rem;
+    /* width: 13rem; */
+    border-bottom: 1px solid #e0e0e0aa;
+}
+
+.flex-item-inner-header {
+    display: flex;
+    text-align: center;
+}
+
+.mobile-navbar {
+    margin-top: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+
+    height: calc(100vh - 94px);
+    
+}
+.mobile-navbar+div {
+    display: flex;
+    background-color: #3D90B2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 1px;
+}
+.inner-mobile-navbar {
+    max-height: calc(65vh - 94px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+.inner-navbar-desk-fixed {
+    position: fixed;
+    top: 7rem;
+    width: auto;
+    /* max-height: 30%; */
+    color: #3d90a2!important;
+    background-color: white;
+    z-index: 99999;
+    list-style-type: none;
+    list-style: none;
+    margin: 0rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.inner-navbar-desk-fixed>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inner-navbar-desk-fixed>div>*{
+    flex-basis: calc(33% - 10px);
+}
+.modal {
+    display: hidden;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    cursor: default; 
+  }
+
+.li-inner-desk {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none!important;
+    width: auto;
+    /* margin: auto; */
+    padding: 1rem 0.5rem;
+    /* border-bottom: 1px solid #e0e0e0; */
+    list-style-type: none;
+}
+
+.navbar-item-desk-inner{
+    text-decoration: none;
+    text-align: right;
+    color: #3d90a2;
+    font-size: 0.8rem;
+    text-align: right;
+    z-index: 10000 !important;
+    position: relative;
+}
+
+.flex-item-inner-header-desk { 
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin: 10px;
+    margin-top: -0.2rem;
+}

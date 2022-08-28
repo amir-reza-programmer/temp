@@ -1,0 +1,66 @@
+.badge {
+  position: fixed;
+  bottom: 3rem;
+  right: 2.5rem;
+  display: flex;
+  /* padding: 2px 6px; */
+
+  /* width: 6rem;
+  height: 2.5rem; */
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  border-radius: 40px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+/* .badge-green {
+  background-color: #004b69;
+} */
+
+/* .badge-text {
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+} */
+
+/* .badge-text-desk {
+  font-size: 0.8rem!important;
+  font-weight: 400;
+} */
+
+
+.badge-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.big-badge {
+  bottom: auto!important;
+  top: auto!important;
+  left: auto!important;
+  right: auto!important;
+  margin: auto 0;
+  position: relative;
+  /* width: 12rem;
+  height: 3rem; */
+  border-radius: 80px;
+  /* background-color: #004b69; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.remove-dec-anch {
+  text-decoration: none; 
+}
+
+.remove-dec-anch:visited,
+.remove-dec-anch:link {
+  color: white;
+}

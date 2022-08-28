@@ -1,0 +1,70 @@
+.white-font {
+    color: #fff;
+}
+
+.contact-us-text-desk {
+    display: flex!important;
+    justify-items: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.contact-us {
+    background-color: #3D90B2;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-us-button {
+    font-size: 1rem;
+    font-family: "IranSans-Regular";
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #3D90B2;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.margin-auto {
+    margin: 10px auto;
+}
+
+.left-arrow-icon{
+    color: black;
+}
+
+.left-arrow-icon:hover {
+    color: #3D90B2;
+}
+
+.contact-us-button:hover {
+    background-color: #fff;
+    color: #3D90B2;
+    border: 1px solid #3D90B2;
+    transition: 0.1s ease-in-out;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-item {
+    align-self: center;
+    margin: 0 auto;
+}
+
+.dummy-a {
+    /* hidden */
+    visibility: hidden;
+}

@@ -1,0 +1,11 @@
+.dot {
+  display: block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: #aaa;
+}
+
+.image-slider-container {
+  z-index: -1;
+}
